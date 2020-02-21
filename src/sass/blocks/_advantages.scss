@@ -71,7 +71,8 @@
 }
 
 .advantages__item:hover {
-    border: solid 1px #000
+    border: solid 1px #000;
+    box-shadow: 8px 8px 12px 0 rgba(0,0,0,0.3); // тень при наведении
 }
 
 .advantages__item a {

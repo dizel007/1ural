@@ -15,16 +15,18 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/include_html.js"></script>
 </head>
 
 <body>
+
     <section class="mainhead">
         <nav>
             <div class="container_fluid">
                 <ul class="menu">
                     <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
                     <li class="menu_item"><a href="#catalog" class="menu_link">Каталог продукции</a></li>
-                    <li class="menu_item"><a href="#req" class="menu_link">О компании</a></li>
+                    <!-- <li class="menu_item"><a href="#req" class="menu_link">О компании</a></li> -->
                     <li class="menu_item"><a href="https://1ural.ru/" class="menu_link">Информация</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Новости</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
@@ -33,6 +35,7 @@
             <div class="hamburger"><span></span> <span></span> <span></span></div>
         </nav>
     </section>
+    
     <section id="up" class="promo">
         <div class="container">
             <header class="header">
@@ -56,11 +59,16 @@
             </div>
         </div>
     </section>
+    <!-- <div w3-include-html="header1.html"></div> -->
+     
+
+
+
     <section id="catalog" class="advantages">
         <div class="container_fluid">
             <h2 class="title">КАТАЛОГ ПРОДУКЦИИ</h2>
             <div class="advantages__wrapper">
-                <div class="advantages__item"><a href="#"><img src="img/category/concrete-trays.png"
+                <div id ="lineDrain" class="advantages__item"><a href="#"><img src="img/category/concrete-trays.png"
                             alt="СИСТЕМЫ ЛИНЕЙНОГО ВОДООТВОДА" class="advantages__icon"> </a><a href="#"
                         class="advantages__subtitle">СИСТЕМЫ ЛИНЕЙНОГО ВОДООТВОДА</a></div>
                 <div class="advantages__item"><a href="#"><img src="img/category/point-drainage-systems.png"
@@ -99,29 +107,7 @@
             </div>
         </div>
     </section>
-    <section class="advantages">
-        <div class="container">
-            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
-            <div class="advantages__wrapper">
-                <div class="advantages__item"><img src="icons/advantages/cup.png" alt="cup" class="advantages__icon">
-                    <div class="advantages__subtitle">Делимся опытом</div>
-                    <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами
-                        бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
-                </div>
-                <div class="advantages__item"><img src="icons/advantages/heart.png" alt="heart"
-                        class="advantages__icon advantages__icon_animated">
-                    <div class="advantages__subtitle">Заботимся о здоровье</div>
-                    <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему
-                        здоровью и были в радость Вам и Вашим близким!</div>
-                </div>
-                <div class="advantages__item"><img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon">
-                    <div class="advantages__subtitle">Учим бегать</div>
-                    <div class="advantages__descr">Помогаем с обучением правильной технике бега!<br>Дружим с крупнейшей
-                        школой бега в России - <a href="#">I LOVE RUNNING.</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <section class="consultation">
         <div class="container">
             <h2 class="title title_left">Получите бесплатную консультацию<br>по подбору пульсометра</h2>
@@ -167,7 +153,7 @@
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script> 
     <script src="js/wow.min.js"></script><!-- for Tiny Sliders -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
     <!-- End Tiny Slider Begin Bootstrap slider -->
@@ -176,6 +162,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <script src="js/script.js"></script>
     <script src="js/script-menu.js"></script>
+    <script src="js/catalog.js"></script>
+   
+   
+   
+    <!-- скрипт вставляет код HTML из другого файла -->
+   
+    <!-- <script>
+        includeHTML();
+    </script> -->
+
 </body>
 
-</html>
+</html> 

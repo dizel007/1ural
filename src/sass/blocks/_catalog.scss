@@ -169,3 +169,34 @@
         }
     }
 }
+@media (max-width:767px) {
+    .catalog {
+    
+        &__tabs {
+
+            display: flex;
+            flex-direction: raw;
+            }
+        &__tab {
+           
+            width: 220px;
+            height: 50px;
+            
+            cursor: pointer;
+            transition: 0.5s all;
+            &:hover {
+                box-shadow: 3px 3px 20px $main-color;
+                border: none;
+            }
+            div {
+                transform: skewX(25deg);
+            }
+            &_active {
+                color: #fff;
+                background-color: $main-color;
+                border: none;
+            }
+
+        }
+    }
+}

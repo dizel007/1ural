@@ -1,0 +1,62 @@
+
+@media (max-width: 767px) {
+     .header {
+     display: flex;
+     flex-direction: column;
+       
+    &__logo {
+             margin: 10px;
+             width: 300px;
+      }
+    &__official {
+        display: none;
+        
+
+     }
+     &__phone {
+       margin: 10px;
+        font-size: 25px;
+     }
+
+ }
+
+ .promo {
+    min-height: 450px;
+    padding-bottom: 20px;
+    &__wrapper{
+        margin-top: 0px;
+        align-items: center;
+        button {
+            display: none;
+        }
+    }
+    &__header {
+            margin: 10px;
+            font-size: 22px;
+            text-align: center;
+        
+    }
+    &__subheader {
+        display: none;
+    }
+    &__icons {
+        margin-top: 10px;
+        width: 300px
+    }
+    &__link {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

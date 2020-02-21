@@ -1,0 +1,97 @@
+.advantages {
+    padding: 70px 0 80px 0;
+    background-color: #f6f6f6;
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
+    }
+    &__subtitle {
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        a {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+}
+
+/**********************************************************/
+
+.advantages {
+    padding         : 70px 0 80px 0;
+    background-color: #f6f6f6
+}
+
+.advantages__wrapper {
+    margin-top      : 5px;
+    display         : -webkit-box;
+    display         : flex;
+    -webkit-box-pack: justify;
+    justify-content : space-between;
+    flex-wrap       : wrap
+}
+.advantages__item {
+    display              : -webkit-box;
+    display              : flex;
+    width                : 240px;
+    margin               : 10px 20px 10px 20px;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    flex-direction       : column;
+    -webkit-box-align    : center;
+    align-items          : center;
+    max-width            : 238px;
+    -webkit-transition   : .5s all;
+    transition           : .5s all;
+    border               : solid 1px #f6f6f6
+}
+
+.advantages__item:hover {
+    border: solid 1px #000
+}
+
+.advantages__item a {
+    display          : block;
+    text-decoration  : none;
+    -webkit-box-align: center;
+    align-items      : center
+}
+
+.advantages__item a img {
+    display          : block;
+    -webkit-box-align: center;
+    align-items      : center
+}
+
+.advantages__subtitle {
+    margin-top     : 8px;
+    color          : #0d0d0d;
+    font-size      : 18px;
+    font-weight    : 700;
+    text-align     : center;
+    text-decoration: none
+}
